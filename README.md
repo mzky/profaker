@@ -1,6 +1,7 @@
 #profake<br>
 python生成随机字符、中英文用户名、手机号、身份证等<br>
 
+test ok : python 3.7
 Usage:<br>
 
 from fake_modules.utils.tools import * <br>

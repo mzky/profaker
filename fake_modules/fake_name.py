@@ -32,7 +32,7 @@ def name(Language='cn', count=2):
         last = ''
         for i in range(count - 1):
             last = last + array2[random.randint(0, len(array2) - 1)]
-        return "%s%s" % (front.decode("utf-8"),last.decode("utf-8"))
+        return '{}{}'.format(front,last)
     elif Language.lower() == 'en':
         array3 = ['z', 'y', 'x', 'w', 'v', 'u', 't', 's', 'r', 'q', 'p', 'o', 'n', 'm', 'l', 'k', 'j', 'i', 'h',
                   'g', 'f', 'e', 'd', 'c', 'b', 'a']

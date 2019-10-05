@@ -25,7 +25,7 @@ def check_id(ID):
     '''
     ARR = (7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2)
     LAST = ('1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2')
-    xlen = len(ID)
+    xlen = len(str(ID))
     if xlen != 18:
         return False
     try:
